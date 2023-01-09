@@ -14,11 +14,16 @@
 
 # Setup steps for vezeus
 
-#1 Copy the contract address of the middleware contract deployed and update the different contracts. Below are the functions that enable you setup the middleware on each contract
+#1 Copy the contract address of the middleware contract deployed and update the different contracts. Below are the functions that enable you setup the middleware on each contract.
+
     - Handler Contract: "function setAuthorities()". 
+
         The messenger address should be the middleware contract address. The caller address is the address which is responsible for the cronjob.
+
     - Membership contract: function setAuthorities()
+
     - veZeus contract: function setMiddlewareAddress()
+    
     - vote contract: function setAuthorities()
 
 #2 Copy the address of vZeus contract, locate the "updateVeZeusContractAddress" function in veZeusData and update it
