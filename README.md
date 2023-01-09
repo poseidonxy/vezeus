@@ -1,10 +1,15 @@
 # Deployment steps for vezeus
 
 #1 Deploy the Handler contract
+
 #2 Deploy the Membership contract
+
 #3 Deploy the Vote contract
+
 #4 Deploy the VeZeusData contract
+
 #5 Deploy the VeZeus contract (constructor requires the Handler contract address and the VeZeusData contract address)
+
 #6 Deploy the Middleware contract (constructor requires the contract addresse of handler, membership, vote and vezeus)
 
 # Setup steps for vezeus
